@@ -14,7 +14,7 @@ class ServerManager():
 
 
     def check_system(self):
-        print(f"Current Directory: {os.getcwd()}")
+        print(f"Current Directory: {Path.cwd()}")
 
         print(f"OS Name: {os.name}")
 
